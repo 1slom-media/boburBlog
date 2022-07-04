@@ -1,0 +1,56 @@
+.public_home{
+    margin: 200px auto;
+    width: 350px;
+}
+
+.public_heading{
+    text-align: center;
+    font-family: 'Roboto Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 53px;
+    margin-bottom: 55px;
+    color: #000000;    
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.form_input{
+    background-color: #F4F4F4;
+    border: none;
+    height: 40px;
+    padding-left: 15px;
+    border-radius: 3px;
+}
+
+.error_input{
+    background-color: rgb(237, 63, 63);
+    color: #FFFFFF;
+}
+
+.form_btn{
+    background-color: #000000;
+    border-radius: 3px;    
+    height: 40px;
+    border: none;
+    font-family: 'Roboto Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    color: #FFFFFF;    
+}
+
+@media screen and (max-width:380px){
+    .public_home{
+        width: 100%;
+    }
+    
+}
+    

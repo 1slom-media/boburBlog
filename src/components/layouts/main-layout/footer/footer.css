@@ -1,0 +1,108 @@
+.footer{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #000;
+    background-image: url(../../images/Subtract.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+.footer_container{
+    max-width: 1320px;
+    padding: 0 20px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.footer_logo{
+    display: flex;
+    align-items: center;
+}
+
+.footer_heading{
+    font-family: 'Gilroy';
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 42px;
+    color: #FFFFFF;
+    margin: 0;
+    margin-left: 15px;
+}
+
+.footer_navs{
+    width: 660px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.footer_nav{
+    display: flex;
+    flex-direction: column;
+}
+
+.nav_heading{
+    margin: 0;
+    margin-bottom: 15px;
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;  
+    color: #FFFFFF;   
+}
+
+.footer_link{
+    display: inline-block;
+    margin-bottom: 15px;
+    text-decoration: none;
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    padding-bottom: 5px;  
+    color: #FFFFFF;   
+}
+
+.footer_link:hover{
+    text-decoration: underline;
+}
+
+.footer_link-active{
+    text-decoration: underline;
+}
+
+.footer_link:last-child{
+    margin-bottom: 0;
+}
+
+@media screen and (max-width:930px) {
+    .footer_container{
+        flex-direction: column;
+    }
+    
+    .footer_logo{
+        margin-bottom: 30px;
+    }
+  
+}
+
+@media screen and (max-width:700px) {
+    .footer{
+        background-position: center center;
+    }
+
+    .footer_navs{
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .footer_nav{
+        margin-bottom: 40px;
+    }
+ 
+  
+}

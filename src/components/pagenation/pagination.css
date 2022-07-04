@@ -1,0 +1,26 @@
+.pagination{
+    display: flex;
+    align-items: center;
+    float: right;
+    gap: 10px;
+}
+
+.page-item{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.page-link{
+    text-decoration: none;
+    display: inline-block;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    color: #474747;    
+}
+
+.page-link:hover{
+    color: #FFBA9D;
+}
