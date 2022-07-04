@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { useState } from "react";
-import Logo from '../../images/Subtract.svg';
+import Logo from '../../../images/Subtract.svg';
 import {AiOutlineSearch,AiOutlineMenu,AiOutlineClose} from 'react-icons/ai';
 import './header.css';
 import { useAuth } from "../../../../hooks/useAuth";

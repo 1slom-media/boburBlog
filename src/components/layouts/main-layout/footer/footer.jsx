@@ -1,4 +1,4 @@
-import Logo from '../../images/flogo.svg';
+import Logo from '../../../images/flogo.svg';
 import './footer.css';
 import {Link} from 'react-router-dom';
 
